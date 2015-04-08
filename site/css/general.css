@@ -1,0 +1,167 @@
+/*** configuração ***/
+*html {
+	height: 100%;
+}
+html, body {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 300; 
+	min-width:900px; 	
+	width:100%;
+	font-size:14px;
+	color:#504E4D;	
+} 
+body {
+	margin:0;
+	padding:0;
+	background-color:#fff;
+}
+
+/*** base ***/
+.hidden {
+	display: none !important;
+}
+
+.clear {	
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.blue {
+	color: #75BEE9;
+}
+
+.green {
+	color: #ABD037;
+}
+
+.container {
+	width:auto;
+	height:auto;
+	margin:auto;	
+}
+
+.section {
+	width:900px;
+	height:auto;
+	margin:auto; 
+	clear: both;
+	position: relative;
+	margin-top: 30px;
+}
+
+.col-left {
+	position: absolute;
+	left: 0;
+	width: 280px;
+}
+
+.col-right {
+	position: absolute;
+	right: 0;
+	width: 600px;
+	border: 0;
+	border-left: 1px solid #aaa;
+	padding-left: 10px;
+}
+
+.area {
+	margin-bottom: 30px;
+}
+
+h1.title {
+	font-weight: 700; 
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.name {
+	text-align: center;
+	font-weight: 700; 
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+.career {
+	text-align: center;
+	font-weight: 700; 
+	font-size: 20px;
+}
+
+.photo {
+	text-align: center;
+	margin: 20px 0 30px;
+}
+
+.photo > img {
+	width: 180px;
+	height: 180px;
+}
+
+.contact {
+	margin: 7px 0;
+}
+
+.contact > .icon {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 10px;
+	background:url("images/icons.png") no-repeat; 
+}
+
+.contact > .icon.place {
+	background-position: 0 0;
+}
+
+.contact > .icon.site {
+	background-position: -24px 0;
+}
+
+.contact > .icon.phone {
+	background-position: -48px 0;
+}
+
+.contact > .icon.mail {
+	background-position: -72px 0;
+}
+
+.info {
+	position: relative;
+	top:-5px;
+	left: 0;
+}
+
+.about {
+	padding: 0 20px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.lang {
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #aaa;
+	width: 230px;
+}
+
+.lang .icon {
+	width: 18px;
+	height: 20px;
+	display: inline-block;
+	background:url("images/languages.png") no-repeat 0 0; 
+}
+
+.lang .check-blue {
+	background-position: -18px 0;
+}
+
+.lang .check-green {
+	background-position: -36px 0;
+}
