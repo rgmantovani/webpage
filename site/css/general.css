@@ -59,7 +59,7 @@ body {
 .col-left {
 	position: absolute;
 	left: 0;
-	width: 280px;
+	width: 250px;
 }
 
 .col-right {
@@ -68,16 +68,19 @@ body {
 	width: 600px;
 	border: 0;
 	border-left: 1px solid #aaa;
-	padding-left: 10px;
+	padding-left: 25px;
 }
 
 .area {
-	margin-bottom: 30px;
+	padding-bottom: 15px;
+	border: 0;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 15px;
 }
 
 h1.title {
 	font-weight: 700; 
-	font-size: 20px;
+	font-size: 24px;
 	margin-bottom: 15px;
 }
 
@@ -147,7 +150,6 @@ h1.title {
 .lang {
 	padding-bottom: 15px;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #aaa;
 	width: 230px;
 }
 
@@ -155,7 +157,7 @@ h1.title {
 	width: 18px;
 	height: 20px;
 	display: inline-block;
-	background:url("images/languages.png") no-repeat 0 0; 
+	background:url("images/languages.svg") no-repeat 0 0; 
 }
 
 .lang .check-blue {
@@ -164,4 +166,56 @@ h1.title {
 
 .lang .check-green {
 	background-position: -36px 0;
+}
+
+.academic-life {
+	height: 160px;
+}
+
+.academic-life ul.timeline {
+	margin-top: 40px;
+	position: relative;
+	width: 600px;
+	height: 13px;
+	background:url("images/timeline.svg") no-repeat 0 0; 
+}
+
+.academic-life ul.timeline > li {	
+	background: url("") no-repeat center 15px;
+	position: absolute;
+	top: -18px;
+	left: 0;
+	height: 105px;
+	width: 108px;
+}
+
+.academic-life ul.timeline > li.point1 {
+	background-image: url("images/point1.svg");
+}
+
+.academic-life ul.timeline > li.point2 {
+	background-image: url("images/point2.svg");
+}
+
+.academic-life .date {
+	left: 0;
+	top: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.academic-life .institute {
+	color: #fff;
+	text-align: center;
+	display: block;
+	top: 39px;
+	left: 0;
+	position: relative;
+	line-height: 19px;
+}
+
+.academic-life .institute > span {
+	font-size: 11px;
+	font-style: italic;
 }
